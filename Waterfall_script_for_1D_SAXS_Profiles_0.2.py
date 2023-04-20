@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Apr 19 12:28:55 2023
-
-@author: S3599678
 """
 
 import numpy as np
@@ -10,8 +7,9 @@ import matplotlib.pyplot as plt
 import glob
 
 
-datapath = 'C:/Users/s3599678/OneDrive - RMIT University/PhD/MO-PILs/Old stuff/SAXS 18th nov/SAXS_subtracted/1st_26deg/EAN//'
+datapath = 'C:/your/data/path/here//'
 outpath = datapath
+
 # x and y axis limits for data
 qmin = 0.1
 qmax = 0.8
