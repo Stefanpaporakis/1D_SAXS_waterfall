@@ -71,7 +71,7 @@ for data in files[0:5]:
     split_path = data.split("\\") 
     file_name = split_path[-1]
     file_tag = file_name[:-4] 
-    print(file_tag)
+    #print(file_tag)
     print("\n##################################################################################")
     print("plotting file: "+split_path[-1])
     print("##################################################################################")
